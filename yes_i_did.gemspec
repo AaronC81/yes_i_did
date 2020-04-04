@@ -9,6 +9,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/AaronC81/yes_i_did"
   spec.license       = "MIT"
 
-  spec.files         = ['lib/yes-i-did.rb']
+  spec.files         = ['lib/yes_i_did.rb', 'yes_i_did.gemspec']
   spec.require_paths = ["lib"]
 end

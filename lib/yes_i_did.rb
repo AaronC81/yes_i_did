@@ -36,8 +36,8 @@ def yes
   fixed_command = previous_command.gsub(/[a-zA-Z_][a-zA-Z_0-9]*[\?!]?/) do |match|
     if match == original_name
       # Replace with correction
-      corrections.first.to_s
       replacements_made += 1
+      corrections.first.to_s
     else
       # Keep the same
       match
